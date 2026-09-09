@@ -208,9 +208,21 @@
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "textContent_text",
         "value": "",
         "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "name": "textContent_cta",
+        "label": "CTA",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "textContent_ctaText",
+        "label": "CTA label",
         "valueType": "string"
       }
     ]
