@@ -172,6 +172,10 @@
         "valueType": "string",
         "options": [
           {
+            "name": "Default",
+            "value": ""
+          },
+          {
             "name": "Intro",
             "value": "intro"
           },
