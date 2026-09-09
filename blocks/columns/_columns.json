@@ -21,6 +21,24 @@
       "id": "columns",
       "fields": [
         {
+          "component": "select",
+          "name": "classes",
+          "value": "",
+          "label": "Column options",
+          "description": "",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "Intro",
+              "value": "intro"
+            },
+            {
+              "name": "Featured",
+              "value": "featured"
+            }
+          ]
+        },
+        {
           "component": "text",
           "valueType": "number",
           "name": "columns",
