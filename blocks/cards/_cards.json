@@ -59,13 +59,13 @@
         {
           "component": "aem-content",
           "name": "cardContent_ctaSecondary",
-          "label": "Secondary CTA",
+          "label": "CTA",
           "valueType": "string"
         },
         {
           "component": "text",
           "name": "cardContent_ctaSecondaryText",
-          "label": "Secondary CTA label",
+          "label": "CTA label",
           "valueType": "string"
         }
       ]
