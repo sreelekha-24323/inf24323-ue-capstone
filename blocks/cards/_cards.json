@@ -43,30 +43,29 @@
           "multi": false
         },
         {
+          "component": "text",
+          "valueType": "string",
+          "name": "cardContent_eyebrow",
+          "label": "Eyebrow",
+          "value": ""
+        },
+        {
           "component": "richtext",
-          "name": "text",
+          "name": "cardContent_text",
           "value": "",
           "label": "Text",
           "valueType": "string"
         },
         {
-          "component": "text",
-          "valueType": "string",
-          "name": "eyebrow",
-          "label": "Eyebrow",
-          "value": ""
-        },
-       
-          {
           "component": "aem-content",
-          "name": "destinationLink",
-          "label": "Destination Link",
+          "name": "cardContent_ctaSecondary",
+          "label": "Secondary CTA",
           "valueType": "string"
         },
         {
           "component": "text",
-          "name": "destinationLabel",
-          "label": "Destination label",
+          "name": "cardContent_ctaSecondaryText",
+          "label": "Secondary CTA label",
           "valueType": "string"
         }
       ]
