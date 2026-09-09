@@ -311,6 +311,12 @@
         "name": "ctaContent_ctaSecondaryText",
         "label": "Secondary CTA label",
         "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "desc",
+        "label": "Desc",
+        "valueType": "string"
       }
     ]
   }
