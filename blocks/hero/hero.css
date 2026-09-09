@@ -34,6 +34,14 @@
   height: 100%;
 }
 
+.section.hero-container {
+  margin:0;
+}
+
+.section .hero-wrapper{
+  padding:0;
+}
+
 .hero-eyebrow-container,
 .hero-content-container {
   /* position: absolute;
@@ -74,6 +82,8 @@
   color: white;
   background: transparent;
 }
+
+
 
 @media (width >= 900px) {
   .hero {
