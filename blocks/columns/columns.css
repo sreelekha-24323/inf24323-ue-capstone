@@ -21,12 +21,12 @@
 
 /* .columns-container {} */
 
-.columns-container.intro {
+.block.intro {
   background-color: rgb(248, 101, 47);
   text-align: center;
 }
 
-.columns-container.featured{
+.block.featured{
   background-color: antiquewhite;
 }
 
