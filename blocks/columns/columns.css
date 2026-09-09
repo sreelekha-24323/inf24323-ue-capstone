@@ -41,6 +41,18 @@
   background-color: antiquewhite;
 }
 
+.columns.block.editorial{
+  background-color: black;
+}
+
+.columns.block.editorial h2{
+  color:white;
+}
+
+.columns.block.editorial p{
+  color:lightgrey;
+}
+
 @media (width >=900px) {
   .columns>div {
     align-items: center;
