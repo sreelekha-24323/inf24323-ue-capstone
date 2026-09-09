@@ -35,6 +35,13 @@
           "value": ""
         },
         {
+          "component": "text",
+          "valueType": "string",
+          "name": "eyebrow",
+          "label": "Eyebrow",
+          "value": ""
+        },
+        {
           "component": "richtext",
           "name": "textContent_text",
           "value": "",
@@ -43,14 +50,26 @@
         },
         {
           "component": "aem-content",
-          "name": "textContent_cta",
+          "name": "textContent_ctaPrimary",
           "label": "CTA",
           "valueType": "string"
         },
         {
           "component": "text",
-          "name": "textContent_ctaText",
-          "label": "CTA label",
+          "name": "textContent_ctaPrimaryText",
+          "label": "Primary CTA label",
+          "valueType": "string"
+        },
+        {
+          "component": "aem-content",
+          "name": "textContent_ctaSecondary",
+          "label": "Secondary CTA",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "textContent_ctaSecondaryText",
+          "label": "Secondary CTA label",
           "valueType": "string"
         }
       ]
