@@ -166,18 +166,16 @@
         "value": ""
       },
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "destination",
-        "label": "Destination Label",
-        "value": "View Destination"
-      },
-      {
         "component": "aem-content",
-        "valueType": "string",
         "name": "destinationLink",
         "label": "Destination Link",
-        "value": ""
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "destinationLabel",
+        "label": "Destination label",
+        "valueType": "string"
       }
     ]
   },
