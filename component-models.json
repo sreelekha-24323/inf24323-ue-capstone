@@ -167,14 +167,14 @@
       },
       {
         "component": "aem-content",
-        "name": "cardContent_destinationLink",
-        "label": "Destination Link",
+        "name": "cardContent_ctaSecondary",
+        "label": "Secondary CTA",
         "valueType": "string"
       },
       {
         "component": "text",
-        "name": "cardContent_destinationLabel",
-        "label": "Destination label",
+        "name": "cardContent_ctaSecondaryText",
+        "label": "Secondary CTA label",
         "valueType": "string"
       }
     ]
