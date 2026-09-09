@@ -39,6 +39,10 @@
             {
               "name": "Featured",
               "value": "featured"
+            },
+            {
+              "name": "Editorial",
+              "value": "editorial"
             }
           ]
         },

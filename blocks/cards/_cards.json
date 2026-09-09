@@ -35,6 +35,24 @@
     {
       "id": "card",
       "fields": [
+         {
+          "component": "select",
+          "name": "classes",
+          "value": "",
+          "label": "Column options",
+          "description": "",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "Default",
+              "value": ""
+            },
+            {
+              "name": "Featured",
+              "value": "featured"
+            }
+          ]
+        },
         {
           "component": "reference",
           "valueType": "string",
