@@ -64,7 +64,7 @@
         },
         {
           "component": "text",
-          "name": "cardContent_destinationLink",
+          "name": "cardContent_destinationLabel",
           "label": "Destination label",
           "valueType": "string"
         }
