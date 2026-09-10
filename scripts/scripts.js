@@ -88,6 +88,8 @@ export function decorateButtons(main) {
       if (new URL(a.href).href === new URL(text, window.location).href) return;
     } catch { /* continue */ }
 
+    const customType = a.dataset.linkType || p.dataset.linkType || a.getAttribute('linktype') || p.getAttribute('linktype');
+
     // require authored formatting for buttonization
     const strong = a.closest('strong');
     const em = a.closest('em');
@@ -95,16 +97,20 @@ export function decorateButtons(main) {
 
     p.className = 'button-wrapper';
     a.className = 'button';
-    if (strong && em) { // high-impact call-to-action
-      a.classList.add('accent');
-      const outer = strong.contains(em) ? strong : em;
-      outer.replaceWith(a);
-    } else if (strong) {
-      a.classList.add('primary');
-      strong.replaceWith(a);
-    } else {
-      a.classList.add('secondary');
-      em.replaceWith(a);
+    if (customType) {
+      // Automatically applies 'light', 'dark', 'danger', or 'outlined' as a CSS class
+      a.classList.add(customType);
+      if (strong && em) { // high-impact call-to-action
+        a.classList.add('accent');
+        const outer = strong.contains(em) ? strong : em;
+        outer.replaceWith(a);
+      } else if (strong) {
+        a.classList.add('primary');
+        strong.replaceWith(a);
+      } else {
+        a.classList.add('secondary');
+        em.replaceWith(a);
+      }
     }
   });
 }
