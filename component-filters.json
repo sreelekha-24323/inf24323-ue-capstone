@@ -17,7 +17,7 @@
       "columns",
       "fragment",
       "teaser",
-      "customButton"
+      "custom-button"
     ]
   },
   {
@@ -39,7 +39,7 @@
       "image",
       "button",
       "title",
-      "customButton"
+      "custom-button"
     ]
   }
 ]

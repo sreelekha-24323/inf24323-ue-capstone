@@ -288,7 +288,7 @@
     ]
   },
   {
-    "id": "customButton",
+    "id": "custom-button",
     "fields": [
       {
         "component": "aem-content",
@@ -309,6 +309,7 @@
         "component": "select",
         "name": "classes",
         "label": "Type",
+        "valueType": "string",
         "options": [
           {
             "name": "light",

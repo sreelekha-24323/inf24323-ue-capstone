@@ -1,23 +1,19 @@
-
-a.light {
+.custom-button.light a.button {
   background-color: white;
   color: black;
 }
 
-a.button.dark,
-button.button.dark {
+.custom-button.dark a.button {
   background-color: black;
   color: white;
 }
 
-a.button.danger,
-button.button.danger {
+.custom-button.danger a.button {
   background-color: rgb(248, 101, 47);
   color: black;
 }
 
-a.button.outlined,
-button.button.outlined {
+.custom-button.outlined a.button {
   border-color: #131313;
   background-color: transparent;
   color: #131313;
