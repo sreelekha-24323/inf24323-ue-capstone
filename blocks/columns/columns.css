@@ -20,16 +20,21 @@
 }
 
 .section.columns-container {
-  margin:0;
+  margin: 0;
 }
 
-.section .columns-wrapper{
-  padding:0;
-  max-width:100%;
+.section .columns-wrapper {
+  padding: 0;
+  max-width: 100%;
 }
 
-.columns.block{
-  padding:15px;
+.columns.block {
+  padding: 15px;
+}
+
+.columns.block>div {
+  max-width: 60%;
+  margin:0 auto;
 }
 
 .columns.block.intro {
@@ -37,20 +42,20 @@
   text-align: center;
 }
 
-.columns.block.featured{
+.columns.block.featured {
   background-color: antiquewhite;
 }
 
-.columns.block.editorial{
+.columns.block.editorial {
   background-color: black;
 }
 
-.columns.block.editorial h2{
-  color:white;
+.columns.block.editorial h2 {
+  color: white;
 }
 
-.columns.block.editorial p{
-  color:lightgrey;
+.columns.block.editorial p {
+  color: lightgrey;
 }
 
 @media (width >=900px) {
