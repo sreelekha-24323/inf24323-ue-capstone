@@ -8,6 +8,7 @@
 } */
 
 .cards > ul > li {
+  width:250px;
   border: 1px solid #dadada;
   background-color: var(--background-color);
 }
@@ -49,5 +50,9 @@
 }
 
 .cards.block.featured{
+  background-color: antiquewhite;
+}
+
+.section.soft{
   background-color: antiquewhite;
 }
