@@ -55,20 +55,6 @@
               }
             }
           }
-        },
-        {
-          "title": "Custom Button",
-          "id": "customButton",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/button/v1/button",
-                "template": {
-                  "model": "customButton"
-                }
-              }
-            }
-          }
         }
       ]
     },
@@ -137,6 +123,20 @@
                 "template": {
                   "columns": "2",
                   "rows": "1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Custom Button",
+          "id": "customButton",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/button/v1/button",
+                "template": {
+                  "model": "customButton"
                 }
               }
             }
