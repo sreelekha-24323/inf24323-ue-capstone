@@ -16,7 +16,8 @@
       "cards",
       "columns",
       "fragment",
-      "teaser"
+      "teaser",
+      "customButton"
     ]
   },
   {
@@ -37,7 +38,8 @@
       "text",
       "image",
       "button",
-      "title"
+      "title",
+      "customButton"
     ]
   }
 ]
