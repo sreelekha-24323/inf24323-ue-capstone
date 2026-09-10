@@ -214,18 +214,11 @@ button.button:disabled {
   pointer-events: none;
 }
 
-a.button, button.button {
-  background-color: black;
-  color: white;
-}
-
 a.button.primary,
 button.button.primary {
-  /* border-color: var(--text-color);
+  border-color: var(--text-color);
   background-color: var(--text-color);
-  color: var(--background-color); */
-  background-color: white;
-  color: black;
+  color: var(--background-color);
 }
 
 a.button.primary:hover,
