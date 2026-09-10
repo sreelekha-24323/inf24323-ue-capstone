@@ -58,6 +58,14 @@
   color: lightgrey;
 }
 
+.section.columns-container.dark .columns.block h2{
+    color: white;
+}
+
+.section.columns-container.dark .columns.block p {
+  color: lightgrey;
+}
+
 @media (width >=900px) {
   .columns>div {
     align-items: center;
