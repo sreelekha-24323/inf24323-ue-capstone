@@ -5,7 +5,7 @@
 
 .hero {
   position: relative;
-  padding: 20px 220px;
+  padding: 32px 16px;
   min-height: 300px;
 }
 
@@ -93,6 +93,6 @@ a.hero-btn {
 
 @media (width >=900px) {
   .hero {
-    /* padding: 40px 32px; */
+    padding: 40px 300px;
   }
 }

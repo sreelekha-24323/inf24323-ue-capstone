@@ -378,3 +378,23 @@ main .section.regional-editors {
 main .section.destination-briefing {
   background-color: black;
 }
+
+main .section .columns-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+main .section .cards-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width>=768px) {
+  main .section .columns-wrapper {
+    max-width: 60%;
+  }
+
+  main .section .cards-wrapper {
+    max-width: 60%;
+  }
+}
