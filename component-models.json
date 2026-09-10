@@ -307,7 +307,7 @@
       },
       {
         "component": "select",
-        "name": "linkType",
+        "name": "classes",
         "label": "Type",
         "options": [
           {
