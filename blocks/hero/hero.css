@@ -5,7 +5,7 @@
 
 .hero {
   position: relative;
-  padding: 40px 24px;
+  padding: 20px 220px;
   min-height: 300px;
 }
 
@@ -16,8 +16,8 @@
   color: var(--background-color);
 }
 
-.hero p{
-  color:var(--background-color);
+.hero p {
+  color: var(--background-color);
 }
 
 .hero picture {
@@ -35,11 +35,11 @@
 }
 
 .section.hero-container {
-  margin:0;
+  margin: 0;
 }
 
-.section .hero-wrapper{
-  padding:0;
+.section .hero-wrapper {
+  padding: 0;
 }
 
 .hero-eyebrow-container,
@@ -50,43 +50,49 @@
   color: white;
 }
 
-.hero-action-links-container div{
+.hero-action-links-container div {
   display: flex;
 }
 
-.hero-eyebrow {
-  color: #f4a261;
+p.hero-eyebrow {
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 0.9rem;
+  background-color: #ee5613;
+  color: white;
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-size: 14px;
   font-weight: 600;
 }
 
-.hero-btn {
+a.hero-btn {
   display: inline-block;
-  padding: 0.875rem 1.5rem;
+  padding: 8px 16px;
   border-radius: 999px;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
   margin-right: 1rem;
+   background: white;
+  color: black;
 }
 
-.hero-btn.primary {
-  background: #f4a261;
-  color: white;
+/* .hero-btn.primary {
+  background: white;
+  color: black;
 }
 
 .hero-btn.secondary {
   border: 2px solid white;
   color: white;
   background: transparent;
-}
+} */
 
 
 
-@media (width >= 900px) {
+@media (width >=900px) {
   .hero {
-    padding: 40px 32px;
+    /* padding: 40px 32px; */
   }
 }
