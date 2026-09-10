@@ -243,6 +243,50 @@
     ]
   },
   {
+    "id": "cb",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "link",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "name": "linkText",
+        "label": "Text"
+      },
+      {
+        "component": "text",
+        "name": "linkTitle",
+        "label": "Title"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Type",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "light",
+            "value": "light"
+          },
+          {
+            "name": "dark",
+            "value": "dark"
+          },
+          {
+            "name": "danger",
+            "value": "danger"
+          },
+          {
+            "name": "outlined",
+            "value": "outlined"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {
@@ -284,50 +328,6 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
-      }
-    ]
-  },
-  {
-    "id": "customButton",
-    "fields": [
-      {
-        "component": "aem-content",
-        "name": "link",
-        "label": "Link"
-      },
-      {
-        "component": "text",
-        "name": "linkText",
-        "label": "Text"
-      },
-      {
-        "component": "text",
-        "name": "linkTitle",
-        "label": "Title"
-      },
-      {
-        "component": "select",
-        "name": "classes",
-        "label": "Type",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "light",
-            "value": "light"
-          },
-          {
-            "name": "dark",
-            "value": "dark"
-          },
-          {
-            "name": "danger",
-            "value": "danger"
-          },
-          {
-            "name": "outlined",
-            "value": "outlined"
-          }
-        ]
       }
     ]
   },
