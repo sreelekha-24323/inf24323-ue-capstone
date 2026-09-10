@@ -143,20 +143,20 @@
         "label": "Type",
         "options": [
           {
-            "name": "default",
-            "value": ""
+            "name": "light",
+            "value": "light"
           },
           {
-            "name": "primary",
-            "value": "primary"
+            "name": "dark",
+            "value": "dark"
           },
           {
-            "name": "secondary",
-            "value": "secondary"
+            "name": "danger",
+            "value": "danger"
           },
           {
-            "name": "Orange",
-            "value": "orange"
+            "name": "outlined",
+            "value": "outlined"
           }
         ]
       }
