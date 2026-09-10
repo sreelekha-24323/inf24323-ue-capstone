@@ -50,6 +50,18 @@
             {
               "name": "secondary",
               "value": "secondary"
+            },
+            {
+              "name": "Primary Dark",
+              "value": "primary-dark"
+            },
+            {
+              "name": "Primary White",
+              "value": "primary-white"
+            },
+            {
+              "name": "Primary Orange",
+              "value": "primary-orange"
             }
           ]
         }

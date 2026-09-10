@@ -52,10 +52,10 @@
 
 .cards.block ul {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   gap: 20px;
   list-style: none;
-  max-width: 60%;
+  /* max-width: 60%; */
   margin: 0 auto;
 }
 
@@ -68,5 +68,32 @@
 }
 
 .section.cards-container.dark .cards.block .cards-card-body p {
-  color: lightgrey;
+  color: rgb(211, 211, 211,0.6);
+}
+
+.section.cards-container.dark .default-content-wrapper{
+  color:white
+}
+
+.section.cards-container.dark .cards>ul>li {
+  background-color: #292828;
+  border: 0;
+  border-radius: 8px;
+}
+
+.cards.block.featured .cards-card-body p:first-of-type{
+  background-color: #ee5613;
+  color: white;
+  display: inline-block;
+  padding:2px 8px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cards.block .cards-card-body a{
+  background-color: #292828;
+  color:white;
+  padding:9px 21px;
+  border-radius: 43px;
 }
