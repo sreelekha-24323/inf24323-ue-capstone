@@ -60,10 +60,10 @@
   color: lightgrey;
 }
 
-.section.columns-container.destination-briefing a.button.primary {
+/* .section.columns-container.destination-briefing a.button.primary {
   background-color: white;
   color: black;
-}
+} */
 
 .section.columns-container.regional-editors .columns.block a.button.primary {
   background-color: rgb(248, 101, 47);
