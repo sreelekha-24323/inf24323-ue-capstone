@@ -8,7 +8,8 @@
 } */
 
 .cards>ul>li {
-  width: 250px;
+  width: 100%;
+  max-width: 100%;
   border: 1px solid #dadada;
   background-color: var(--background-color);
 }
@@ -27,7 +28,16 @@
   object-fit: cover;
 }
 
-
+.cards.block ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
 
 .section.cards-container {
   margin: 0;
@@ -37,7 +47,7 @@
 
 .section.cards-container .default-content-wrapper {
   /* display: flex; */
-  max-width: 60%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -47,32 +57,25 @@
 }
 
 .cards.block {
-  padding: 15px;
+  padding: 16px;
 }
 
-.cards.block ul {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  list-style: none;
-  /* max-width: 60%; */
-  margin: 0 auto;
-}
+
 
 .cards.block.featured {
   background-color: antiquewhite;
 }
 
-.section.cards-container.destination-briefing .cards.block .cards-card-body p>strong{
-    color: white;
+.section.cards-container.destination-briefing .cards.block .cards-card-body p>strong {
+  color: white;
 }
 
 .section.cards-container.destination-briefing .cards.block .cards-card-body p {
-  color: rgb(211, 211, 211,0.6);
+  color: rgb(211, 211, 211, 0.6);
 }
 
-.section.cards-container.destination-briefing .default-content-wrapper{
-  color:white
+.section.cards-container.destination-briefing .default-content-wrapper {
+  color: white
 }
 
 .section.cards-container.destination-briefing .cards>ul>li {
@@ -86,15 +89,49 @@
   background-color: #ee5613;
   color: white;
   display: inline-block;
-  padding:2px 8px;
+  padding: 2px 8px;
   border-radius: 20px;
   font-size: 14px;
   font-weight: 600;
 }
 
-.cards.block .cards-card-body a{
+.cards.block .cards-card-body a {
   background-color: #292828;
-  color:white;
-  padding:9px 21px;
+  color: white;
+  padding: 9px 21px;
   border-radius: 43px;
+}
+
+.section.cards-container .default-content-wrapper {
+  max-width: 100%;
+}
+
+main .section .cards-wrapper {
+  max-width: 100%;
+}
+
+@media (width >=900px) {
+  main .section .cards-wrapper {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  .section.cards-container .default-content-wrapper {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  .cards.block ul {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .cards>ul>li {
+    max-width: 250px;
+  }
 }

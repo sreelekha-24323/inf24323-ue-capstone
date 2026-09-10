@@ -55,6 +55,7 @@ footer .footer p {
 
 .footer .section .default-content-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -66,5 +67,9 @@ footer .footer p {
 @media (width >=900px) {
   footer .footer>div {
     padding: 40px 32px 24px;
+  }
+
+  .footer .section .default-content-wrapper {
+    flex-direction: row;
   }
 }

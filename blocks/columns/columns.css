@@ -23,17 +23,17 @@
   margin: 0;
 }
 
-.section .columns-wrapper {
+/* .section .columns-wrapper {
   padding: 0;
   max-width: 100%;
-}
+} */
 
 .columns.block {
-  padding: 15px;
+  padding: 16px;
 }
 
 .columns.block>div {
-  max-width: 60%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -81,7 +81,14 @@
   background-color: black;
 } */
 
+
+
 @media (width >=900px) {
+  main .section .columns-wrapper {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
   .columns>div {
     /* align-items: center; */
     flex-direction: unset;
@@ -92,4 +99,5 @@
     flex: 1;
     order: unset;
   }
+
 }
