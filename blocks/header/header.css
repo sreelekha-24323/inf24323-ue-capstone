@@ -4,6 +4,8 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  max-width: 100%;
+  /* margin: 0 auto; */
 }
 
 header nav {
@@ -33,6 +35,8 @@ header nav[aria-expanded='true'] {
 @media (width >= 900px) {
   header .nav-wrapper {
     position: relative;
+    max-width: 60%;
+    margin: 0 auto;
   }
 
   header nav {
