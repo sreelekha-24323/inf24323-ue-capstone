@@ -214,7 +214,7 @@ button.button:disabled {
   pointer-events: none;
 }
 
-a.button {
+a.button, button.button {
   background-color: black;
   color: white;
 }
