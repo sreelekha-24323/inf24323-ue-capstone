@@ -15,11 +15,7 @@
         },
         {
           "...": "./_button.json#/definitions"
-        },
-        {
-          "...": "./_custombutton.json#/definitions"
-        }
-      ]
+        }      ]
     },
     {
       "title": "Sections",
