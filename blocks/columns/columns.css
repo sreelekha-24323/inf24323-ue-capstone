@@ -34,7 +34,7 @@
 
 .columns.block>div {
   max-width: 60%;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 .columns.block.intro {
@@ -58,12 +58,29 @@
   color: lightgrey;
 }
 
-.section.columns-container.dark .columns.block h2{
-    color: white;
+.section.columns-container.dark .columns.block h2 {
+  color: white;
 }
 
 .section.columns-container.dark .columns.block p {
   color: lightgrey;
+}
+
+.section.dark a.button.primary {
+  background-color: white;
+  color: black;
+}
+
+.columns.block.featured a.button.primary {
+  background-color: rgb(248, 101, 47);
+  border: 0;
+  color: black;
+  
+}
+
+.columns.block.featured p:has(.button) {
+  display: inline-block;
+  margin-right: 16px;
 }
 
 @media (width >=900px) {
