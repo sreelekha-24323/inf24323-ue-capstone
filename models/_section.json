@@ -90,7 +90,8 @@
         "hero",
         "cards",
         "columns",
-        "fragment"
+        "fragment",
+        "teaser"
       ]
     }
   ]
