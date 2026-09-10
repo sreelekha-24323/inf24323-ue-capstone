@@ -1,6 +1,5 @@
 
-a.button.light,
-button.button.light {
+.custom-button.light a.button {
   background-color: white;
   color: black;
 }
