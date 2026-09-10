@@ -144,6 +144,38 @@
           {
             "name": "Dark",
             "value": "dark"
+          },
+          {
+            "name": "Hero Banner",
+            "value": "hero-banner"
+          },
+          {
+            "name": "Explore By Region",
+            "value": "explore-by-region"
+          },
+          {
+            "name": "Fetured Destination",
+            "value": "featured-destination"
+          },
+          {
+            "name": "America Cards",
+            "value": "america-cards"
+          },
+          {
+            "name": "Europe Cards",
+            "value": "europe-cards"
+          },
+          {
+            "name": "Permits & Logistics",
+            "value": "permits"
+          },
+          {
+            "name": "Regional Editors",
+            "value": "regional-editors"
+          },
+          {
+            "name": "Destination Briefing",
+            "value": "destination-briefing"
           }
         ]
       }
