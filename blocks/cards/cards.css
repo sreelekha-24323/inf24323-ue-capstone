@@ -63,25 +63,26 @@
   background-color: antiquewhite;
 }
 
-.section.cards-container.dark .cards.block .cards-card-body p>strong{
+.section.cards-container.destination-briefing .cards.block .cards-card-body p>strong{
     color: white;
 }
 
-.section.cards-container.dark .cards.block .cards-card-body p {
+.section.cards-container.destination-briefing .cards.block .cards-card-body p {
   color: rgb(211, 211, 211,0.6);
 }
 
-.section.cards-container.dark .default-content-wrapper{
+.section.cards-container.destination-briefing .default-content-wrapper{
   color:white
 }
 
-.section.cards-container.dark .cards>ul>li {
+.section.cards-container.destination-briefing .cards>ul>li {
   background-color: #292828;
   border: 0;
   border-radius: 8px;
 }
 
-.cards.block.featured .cards-card-body p:first-of-type{
+.section.cards-container.america-cards .cards-card-body p:first-of-type,
+.section.cards-container.europe-cards .cards-card-body p:first-of-type {
   background-color: #ee5613;
   color: white;
   display: inline-block;
