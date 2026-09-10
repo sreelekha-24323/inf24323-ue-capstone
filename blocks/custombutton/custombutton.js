@@ -1,4 +1,5 @@
 export default function decorate(block) {
+  console.log("block",block)
   const link = block.querySelector('a[href]');
   if (!link) {
     block.textContent = '';
