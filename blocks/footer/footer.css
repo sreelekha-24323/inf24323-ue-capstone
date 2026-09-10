@@ -3,7 +3,7 @@ footer {
   font-size: var(--body-font-size-xs);
 }
 
-footer .footer > div {
+footer .footer>div {
   margin: auto;
   max-width: 1200px;
   padding: 40px 24px 24px;
@@ -13,8 +13,58 @@ footer .footer p {
   margin: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
+.footer {
+  background-color: black;
+  border-top: 2px solid red;
+}
+
+
+
+.footer .section.columns-container .columns.block>div {
+  max-width: 100%;
+}
+
+.footer .section.columns-container .columns.block>div ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer .section.columns-container .columns.block>div ul li {
+  margin-top: 15px;
+}
+
+.footer .section.columns-container .columns.block>div ul li a {
+  color: lightgray;
+}
+
+.footer .section.columns-container .columns.block>div>div p:first-of-type {
+  color: white
+}
+
+.footer .section.columns-container .columns.block>div>div p {
+  color: lightgray;
+}
+
+.footer .columns.block {
+  padding: 30px;
+}
+
+.footer .section:last-child {
+  border-top: 1px solid rgb(211, 211, 211, 0.6);
+}
+
+.footer .section .default-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .section .default-content-wrapper p {
+  color: lightgray;
+  padding-top: 10px;
+}
+
+@media (width >=900px) {
+  footer .footer>div {
     padding: 40px 32px 24px;
   }
 }

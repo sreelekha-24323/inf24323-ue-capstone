@@ -349,23 +349,32 @@ main .section.dark {
   background-color: black;
 }
 
-a.button.primary-dark,
-button.button.primary-dark {
+main .section.explore-by-region {
+  background-color: rgb(248, 101, 47);
+  text-align: center;
+}
+
+
+main .section.featured-destination {
+  background-color: antiquewhite;
+}
+
+main .section.america-cards {
+  background-color: transparent;
+}
+
+main .section.europe-cards {
+  background-color: antiquewhite;
+}
+
+main .section.permits {
   background-color: black;
-  border: 0;
-  color: white;
 }
 
-a.button.primary-white,
-button.button.primary-white {
-  background-color: white;
-  border: 0;
-  color: black;
+main .section.regional-editors {
+  background-color: antiquewhite;
 }
 
-a.button.primary-orange,
-button.button.primary-orange {
-  background-color: orange;
-  border: 0;
-  color: black;
+main .section.destination-briefing {
+  background-color: black;
 }
