@@ -17,7 +17,7 @@
           "...": "./_button.json#/definitions"
         },
         {
-          "...": "./_customButton.json#/definitions"
+          "...": "./_custombutton.json#/definitions"
         }
       ]
     },
