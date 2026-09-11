@@ -10,7 +10,7 @@
             "template": {
               "name": "Cards",
               "filter": "cards",
-              "model":"cards"
+              "model": "cards"
             }
           }
         }
@@ -46,6 +46,13 @@
         {
           "component": "text",
           "valueType": "string",
+          "name": "imageAlt",
+          "label": "Alt",
+          "value": ""
+        },
+        {
+          "component": "text",
+          "valueType": "string",
           "name": "cardContent_eyebrow",
           "label": "Eyebrow",
           "value": ""
@@ -72,9 +79,9 @@
       ]
     },
     {
-      "id":"cards",
-      "fields":[
-         {
+      "id": "cards",
+      "fields": [
+        {
           "component": "select",
           "name": "classes",
           "value": "",
@@ -87,8 +94,8 @@
               "value": ""
             },
             {
-              "name": "Featured",
-              "value": "featured"
+              "name": "Cream",
+              "value": "cream"
             }
           ]
         }

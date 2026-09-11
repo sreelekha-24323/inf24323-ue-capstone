@@ -321,7 +321,7 @@ main>.section {
 main>.section>div {
   max-width: 1200px;
   margin: auto;
-  padding: 0 24px;
+  /* padding: 0 24px; */
 }
 
 main>.section:first-of-type {
@@ -329,9 +329,9 @@ main>.section:first-of-type {
 }
 
 @media (width >=900px) {
-  main>.section>div {
+  /* main>.section>div {
     padding: 0 32px;
-  }
+  } */
 }
 
 /* section metadata */
@@ -342,13 +342,6 @@ main .section.highlight {
   padding: 40px 0;
 }
 
-main .section.soft {
-  background-color: antiquewhite;
-}
-
-main .section.dark {
-  background-color: black;
-}
 
 main .section.explore-by-region {
   background-color: rgb(248, 101, 47);
@@ -356,23 +349,15 @@ main .section.explore-by-region {
 }
 
 
-main .section.featured-destination {
+main .section.cream {
   background-color: antiquewhite;
 }
 
-main .section.america-cards {
+main .section.regional-cards {
   background-color: transparent;
 }
 
-main .section.europe-cards {
-  background-color: antiquewhite;
-}
-
-main .section.permits {
-  background-color: black;
-}
-
-main .section.regional-editors {
+main .section.regional-cards.cream {
   background-color: antiquewhite;
 }
 
@@ -380,10 +365,10 @@ main .section.destination-briefing {
   background-color: black;
 }
 
-main .section .columns-wrapper {
+/* main .section .columns-wrapper{
   max-width: 100%;
   margin: 0 auto;
-}
+} */
 
 main .section .cards-wrapper {
   max-width: 100%;
@@ -391,7 +376,7 @@ main .section .cards-wrapper {
 }
 
 @media (min-width>=768px) {
-  main .section .columns-wrapper {
+  main .section{
     max-width: 60%;
   }
 
