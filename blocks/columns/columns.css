@@ -44,11 +44,11 @@
 
 
 
-.section.columns-container.permits .columns.block h2 {
+.columns.block.dark h2 {
   color: white;
 }
 
-.section.columns-container.permits .columns.block p {
+.columns.block.dark p {
   color: lightgrey;
 }
 
@@ -65,14 +65,14 @@
   color: black;
 }
 
-.section.columns-container.regional-editors .columns.block a.button.primary {
+.columns.block.cream a.button.primary {
   background-color: rgb(248, 101, 47);
   border: 0;
   color: black;
 
 }
 
-.section.columns-container.regional-editors .columns.block p:has(.button) {
+.columns.block.cream p:has(.button) {
   display: inline-block;
   margin-right: 16px;
 }
@@ -90,17 +90,18 @@
   background-color: antiquewhite;
 }
 
-/* .footer .section.columns-container {
-  background-color: black;
-} */
+main .section .columns-wrapper {
+  max-width: 100%;
+}
 
 
 
 @media (width >=900px) {
-  main .section .columns-wrapper {
+  .columns.block>div {
     max-width: 60%;
     margin: 0 auto;
   }
+
 
   .columns>div {
     align-items: center;

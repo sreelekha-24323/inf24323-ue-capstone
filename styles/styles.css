@@ -321,7 +321,7 @@ main>.section {
 main>.section>div {
   max-width: 1200px;
   margin: auto;
-  padding: 0 24px;
+  /* padding: 0 24px; */
 }
 
 main>.section:first-of-type {
@@ -329,9 +329,9 @@ main>.section:first-of-type {
 }
 
 @media (width >=900px) {
-  main>.section>div {
+  /* main>.section>div {
     padding: 0 32px;
-  }
+  } */
 }
 
 /* section metadata */
@@ -360,11 +360,11 @@ main .section.featured-destination {
   background-color: antiquewhite;
 }
 
-main .section.america-cards {
+main .section.regional-cards {
   background-color: transparent;
 }
 
-main .section.europe-cards {
+main .section.regional-cards.cream {
   background-color: antiquewhite;
 }
 
@@ -380,10 +380,10 @@ main .section.destination-briefing {
   background-color: black;
 }
 
-main .section .columns-wrapper {
+/* main .section .columns-wrapper{
   max-width: 100%;
   margin: 0 auto;
-}
+} */
 
 main .section .cards-wrapper {
   max-width: 100%;
@@ -391,7 +391,7 @@ main .section .cards-wrapper {
 }
 
 @media (min-width>=768px) {
-  main .section .columns-wrapper {
+  main .section{
     max-width: 60%;
   }
 
