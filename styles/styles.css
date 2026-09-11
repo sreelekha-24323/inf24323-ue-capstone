@@ -342,13 +342,6 @@ main .section.highlight {
   padding: 40px 0;
 }
 
-main .section.soft {
-  background-color: antiquewhite;
-}
-
-main .section.dark {
-  background-color: black;
-}
 
 main .section.explore-by-region {
   background-color: rgb(248, 101, 47);
@@ -356,7 +349,7 @@ main .section.explore-by-region {
 }
 
 
-main .section.featured-destination {
+main .section.cream {
   background-color: antiquewhite;
 }
 
@@ -365,14 +358,6 @@ main .section.regional-cards {
 }
 
 main .section.regional-cards.cream {
-  background-color: antiquewhite;
-}
-
-main .section.permits {
-  background-color: black;
-}
-
-main .section.regional-editors {
   background-color: antiquewhite;
 }
 
