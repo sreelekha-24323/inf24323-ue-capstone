@@ -77,6 +77,19 @@
   margin-right: 16px;
 }
 
+.section .columns.block.orange {
+  background-color: rgb(248, 101, 47);
+  text-align: center;
+}
+
+.section .columns.block.dark {
+  background-color: black;
+}
+
+.section .columns.block.cream {
+  background-color: antiquewhite;
+}
+
 /* .footer .section.columns-container {
   background-color: black;
 } */
@@ -90,7 +103,7 @@
   }
 
   .columns>div {
-    /* align-items: center; */
+    align-items: center;
     flex-direction: unset;
     gap: 24px;
   }

@@ -138,40 +138,16 @@
             "value": "highlight"
           },
           {
-            "name": "Soft",
-            "value": "soft"
-          },
-          {
-            "name": "Dark",
-            "value": "dark"
-          },
-          {
             "name": "Hero Banner",
             "value": "hero-banner"
           },
           {
-            "name": "Explore By Region",
-            "value": "explore-by-region"
+            "name": "Regional Cards",
+            "value": "regional-cards"
           },
           {
-            "name": "Fetured Destination",
-            "value": "featured-destination"
-          },
-          {
-            "name": "America Cards",
-            "value": "america-cards"
-          },
-          {
-            "name": "Europe Cards",
-            "value": "europe-cards"
-          },
-          {
-            "name": "Permits & Logistics",
-            "value": "permits"
-          },
-          {
-            "name": "Regional Editors",
-            "value": "regional-editors"
+            "name": "Cream",
+            "value": "cream"
           },
           {
             "name": "Destination Briefing",
@@ -190,6 +166,13 @@
         "name": "image",
         "label": "Image",
         "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
       },
       {
         "component": "text",
@@ -235,8 +218,8 @@
             "value": ""
           },
           {
-            "name": "Featured",
-            "value": "featured"
+            "name": "Cream",
+            "value": "cream"
           }
         ]
       }
@@ -258,16 +241,16 @@
             "value": ""
           },
           {
-            "name": "Intro",
-            "value": "intro"
+            "name": "Orange",
+            "value": "orange"
           },
           {
-            "name": "Featured",
-            "value": "featured"
+            "name": "Dark",
+            "value": "dark"
           },
           {
-            "name": "Editorial",
-            "value": "editorial"
+            "name": "Cream",
+            "value": "cream"
           }
         ]
       },

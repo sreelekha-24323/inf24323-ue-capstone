@@ -84,8 +84,8 @@
   border-radius: 8px;
 }
 
-.section.cards-container.america-cards .cards-card-body p:first-of-type,
-.section.cards-container.europe-cards .cards-card-body p:first-of-type {
+.section.cards-container.regional-cards .cards-card-body p:first-of-type,
+.section.cards-container.regional-cards .cards-card-body p:first-of-type {
   background-color: #ee5613;
   color: white;
   display: inline-block;
@@ -108,6 +108,10 @@
 
 main .section .cards-wrapper {
   max-width: 100%;
+}
+
+.section .cards.block.cream {
+  background-color: antiquewhite;
 }
 
 @media (width >=900px) {
